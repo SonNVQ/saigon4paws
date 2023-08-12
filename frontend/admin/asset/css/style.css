@@ -31,14 +31,14 @@ html {
     display: inline-block;
 }
 
-#nav-location, #nav-contact > li > a {
+#nav-location > a, #nav-contact > li > a {
     color: #687581;
     line-height: 40px;
     padding: 0px 24px;
     text-decoration: none;
 }
 
-.location, .nav-comment, #nav-location:hover, #nav-contact > li > a:hover  {
+.location, .nav-comment, #nav-location > a:hover, #nav-contact > li > a:hover  {
     color: #FF6701;
 }
 
