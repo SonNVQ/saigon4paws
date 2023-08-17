@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+.table{
+    width: 80%
+}
+.table_header{
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    color: #FF6701;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add_new{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #FF6701;
+}
+.table_content{
+    padding: 10px 50px;
+    height: 500px;
+    overflow: auto;
+}
+table{
+    border-collapse: collapse;                
+    border-radius: 10px;
+    background-color: #fff;
+}
+th{
+    height: 40px;
+    width: 200px;
+}
+td{
+    height: 160px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+main.table{
+    height: 160px;
+    width: 200px;
+    background-color: black;
+}
