@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>confirmation pop-up</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+
+      <div type="submit" class="delete" onclick="togglePopup()">Xóa</div>
+
+      <div class="pop-up" id="popup">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="confirm"><strong>Xác nhận xóa?</strong></div>
+          <div class="note"><strong>Lưu ý:</strong> Bạn sẽ không thể hoàn tác thao tác này.</div>
+          <div>
+            <button type="button" class="cancel" onclick="togglePopup()"><strong>Hủy</strong></button>
+            <button type="button" class="agree" onclick="togglePopup()"><strong>Đồng ý</strong></button>
+          </div>
+        </div>  
+      </div>
+  <script>
+    function togglePopup() {
+      document.getElementById("popup").classList.toggle("active");
+    }
+  </script>
+  </body>
+</html>
