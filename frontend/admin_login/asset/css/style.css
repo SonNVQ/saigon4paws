@@ -158,7 +158,7 @@ img.logo-main {
 
 /* BEGIN: FOOTER */
 #footer {
-    --heightFoot: 6vh;
+    --heightFoot: 6vh; /*Chiều dài Footer*/
     height: var(--heightFoot);
     background-color: #FEA82F;
 }
