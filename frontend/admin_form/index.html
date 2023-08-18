@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/frontend/template/assets/font/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">THÊM VẬT NUÔI</div>
+        <div class="content">
+            <!-- Begin: Form điền thông tin cơ bản -->
+            <form action="#">
+                <div class="pets-basic-info">
+                    <div class="first-line">
+                        <div class="box-1">
+                            <div class="sub-title-1">THÔNG TIN CƠ BẢN</div>
+                            <div class="input-icons">
+                                <input type="text" placeholder="Loại vật nuôi" required>
+                                <i class="ti-arrow-circle-down icon"></i>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div class="image">
+                                <!-- <img src="/assets/img/slider.jpg" alt=""> -->
+                            </div>
+                            <div class="img-txt">
+                                <i class="ti-export"></i>
+                                <div class="text">Hình ảnh</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="input-icons">
+                            <input type="text" placeholder="Tên vật nuôi" required> 
+                        </div>
+                        <div class="input-icons">
+                            <input type="text" placeholder="Giới tính" required>
+                            <i class="ti-arrow-circle-down icon"></i>
+                        </div>
+                        <div class="input-icons">
+                            <input type="text" placeholder="Giống" required>
+                            <i class="ti-arrow-circle-down icon"></i>
+                        </div>
+                        <div class="input-icons">
+                            <input type="text" placeholder="Tuổi" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Begin: Form điền thông tin cụ thể-->
+            <div class="sub-title-2">THÔNG TIN CỤ THỂ</div>
+            <form action="#">
+                <div class="pets-details-info">
+                    <div class="input-box">
+                        <div class="details">Nhóm cứu trợ:</div>
+                        <input type="text" placeholder="Nơi chăm sóc" required>
+                    </div>                
+                    <div class="input-box">
+                        <div class="details">Tình trạng nhận nuôi:</div>
+                        <input type="text" placeholder="Tình trạng nhận nuôi" required>
+                    </div>   
+                    <div class="input-box">
+                        <div class="details">Tình trạng tiêm phòng:</div>
+                        <input type="text" placeholder="Tình trạng tiêm phòng" required>
+                    </div>   
+                    <div class="input-box">
+                        <div class="details">Tình trạng sức khỏe:</div>
+                        <input type="text" placeholder="Tình trạng sức khỏe" required>
+                    </div>   
+                </div>
+            </form>
+        </div>
+        <div class="edit-btn">
+            <input type="submit" value="Hủy" class="cancel-btn">
+            <input type="submit" value="Lưu" class="save-btn">
+        </div>
+    </div>
+</body>
+</html>
