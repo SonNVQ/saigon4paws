@@ -9,12 +9,13 @@ body{
     overflow: hidden;
 }
 .table{
-    width: 80%
+    width: 100%;
+    padding: 55px;
 }
 .table_header{
     display: flex;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 275px;
     color: #FF6701;
 }
 button{
@@ -29,7 +30,7 @@ button{
     background-color: #FF6701;
 }
 .table_content{
-    padding: 10px 50px;
+    padding: 10px 275px;
     height: 500px;
     overflow: auto;
 }
@@ -40,11 +41,155 @@ table{
 }
 th{
     height: 40px;
-    width: 200px;
+    width: 600px;
 }
 td{
-    height: 160px;
-    width: 200px;
+    height: 250px;
+    width: 600px;
     text-align: center;
     font-weight: bold;
 }
+
+/* BEGIN: HEADER */
+#header {
+    --heightUp: 3vh; /* Biến độ dài Menu trên */
+    height: var(--heightUp);
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#upper-nav, #down-nav, #fowr {
+    display: block;
+    margin: 0px 100px;
+}
+
+#nav-contact {
+    float: right;
+}
+
+#nav-contact > li, #nav-location {
+    display: inline-block;
+}
+
+#nav-location, #nav-contact > li > a {
+    color: #687581;
+    line-height: var(--heightUp);
+    padding: 0px 24px;
+    text-decoration: none;
+}
+
+.location, .nav-comment, #nav-location:hover, #nav-contact > li > a:hover  {
+    color: #FF6701;
+}
+
+#nav {
+    --heightDown: 8vh; /*Biến độ dài Menu dưới */
+    height: var(--heightDown);
+    background-color: #FEA82F;
+}
+
+#down-nav {
+    height: var(--heightDown);
+    display: flex;
+    align-items: center;
+}
+
+img.logo-main {
+    width: 270px;    
+    line-height: var(--heightDown);
+}
+/* END: HEADER */
+
+/* MENU */
+.body {
+    background-color: gray;
+    margin-left: 260px;
+  }
+  .menu {
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    position: fixed;
+    width: 250px;
+    font-family: Arial;
+  }
+  
+  .management {
+    margin-left: 40px;
+    display: flex;
+    margin-bottom: 10pxs;
+  }
+  
+  .management img {
+    height: 20px;
+  }
+    
+  .main-menu {
+    margin-left: 9px;
+  }
+  .main-menu img {
+    height: 7px;
+    margin-right: 6px;
+    margin-top: 5px;
+  }
+  
+  .elements {
+    margin-left: 60px;
+    display: flex;
+    margin-top: 5px;
+    color: rgb(125, 123, 123);
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .elements:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  
+  .menu-profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .profile-photo {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .photo {
+    width: 50px;
+  }
+  
+  .profile-overview {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+  
+  .admin {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .admin-email {
+    font-size: 14px;
+    color: rgb(125, 123, 123);
+  }
+  
+  .copyright {
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    color: rgb(125, 123, 123);
+    font-size: 14px;
+  }
