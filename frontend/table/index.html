@@ -5,99 +5,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./table-v2/themify-icons/themify-icons.css">
 </head>
 <body style="background-color: #CBC8C8;">
-    <div class="table">
-        <div class="table_header">
-            <p;"> 
-                <i class=" ti-angle-right"></i>
-                 Quản lý sản phẩm
-            </p>
-            <div>
-                <button class="add_new">+Thêm mới</button>
+    <div id="wrapper">
+        <!-- MENU TOP -->
+        <div id="header">
+            <div id="upper-nav">
+                <!-- Begin: Location -->
+                <a href="#" id="nav-location">
+                    <i class="location ti-location-pin"></i>
+                    Hồ Chí Minh
+                </a>
+                <!-- End: Location -->
+
+                <!-- Begin: Menu contact -->
+                <ul id="nav-contact">
+                    <li>
+                        <a href="#">
+                            <i class="nav-comment ti-comment"></i>
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">English</a></li>
+                </ul>
+                <!-- End: Menu contact -->
             </div>
         </div>
-        <div class="table_content">
-            <table class="table table-background table-hover">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Tên sản phẩm</th>
-                        <th>Mô tả sản phẩm</th>
-                        <th>Loại sản phẩm</th>
-                        <th>Giá tiền</th>
-                        <th>Nhóm cứu trợ</th>
-                        <th colspan="2">Tác vụ</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>SP001</td>
-                        <td>Minino Plus</td>
-                        <td>Thức ăn hạt cho mèo trưởng thành</td>
-                        <td>Thức ăn</td>
-                        <td>55.000</td>
-                        <td>STG</td>
-                        <td>
-                            <button><i class="ti-pencil-alt"></i></button>
-                            Sửa
-                        </td>
-                        <td>
-                            <button><i class="ti-trash"></i></button>
-                             Xoá
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>SP002</td>
-                        <td>Đồ chơi nhai gặm</td>
-                        <td>Đồ chơi cho chó mèo</td>
-                        <td>Đồ chơi</td>
-                        <td>25.000</td>
-                        <td>STG</td>
-                        <td>
-                            <button><i class="ti-pencil-alt"></i></button>
-                            Sửa
-                        </td>
-                        <td>
-                            <button><i class="ti-trash"></i></button>
-                             Xoá
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>SP003</td>
-                        <td>Thức hạt Fibis</td>
-                        <td>Thức ăn hạt dành cho chó trưởng thành</td>
-                        <td>Thức ăn</td>
-                        <td>55.000</td>
-                        <td>SAR</td>
-                        <td>
-                            <button><i class="ti-pencil-alt"></i></button>
-                            Sửa
-                        </td>
-                        <td>
-                            <button><i class="ti-trash"></i></button>
-                             Xoá
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>SP004</td>
-                        <td>Cần câu mèo</td>
-                        <td>Đồ chơi cho mèo: Cần câu</td>
-                        <td>Đồ chơi</td>
-                        <td>36.000</td>
-                        <td>SAR</td>
-                        <td>
-                            <button><i class="ti-pencil-alt"></i></button>
-                            Sửa
-                        </td>
-                        <td>
-                            <button><i class="ti-trash"></i></button>
-                             Xoá
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+
+        <!-- MENU DOWN -->
+        <div id="nav">
+            <a href="#" id="down-nav">
+                <img src="./table-v2/img/logo-brand.png" alt="LOGO" class="logo-main">
+            </a>
         </div>
+
+        <!-- MAIN-MENU&TABLE -->
+        <div class="main-content">
+
+            <!-- MENU -->
+            <div class="menu">
+                <div class="menu-profile">
+                    <div class="profile-photo">
+                        <img class="photo" src="./table-v2/menu-pic/profile_photo.png">
+                    </div>
+              
+                    <div class="profile-overview">
+                        <div class="admin">Admin</div>
+                        <div class="admin-email">Admin@email.com</div>
+                    </div>
+                </div>
+      
+                <div class="management">
+                    <img src="./table-v2/menu-pic/icon 2.png">
+                    <div class="info-management">Quản lý thông tin</div>
+                </div>
+      
+                <div class="main-menu">
+                    <div class="elements">
+                        <img src="./table-v2/menu-pic/light-orange.png">
+                        <div>Vật nuôi</div>
+                    </div>
+      
+                    <div class="elements">
+                        <img src="./table-v2/menu-pic/dark orange.png">
+                        <div>Bài viết</div>
+                    </div>
+      
+                    <div class="elements">
+                        <img src="./table-v2/menu-pic/light-orange.png">
+                        <div>Nhóm cứu trợ</div>
+                    </div>
+      
+                    <div class="elements">
+                        <img src="./table-v2/menu-pic/dark orange.png">
+                        <div>Nhà tài trợ</div>
+                    </div>
+      
+                    <div class="elements">
+                        <img src="./table-v2/menu-pic/light-orange.png">
+                        <div>Sản phẩm</div>
+                    </div>
+      
+                    <div class="copyright">@2023 saigon4paws</div>
+                </div>      
+            </div>
+
+            <!-- TABLE -->
+            <div class="table">
+
+                <div class="table_header">
+                    <div class="line">
+                        <p;"> 
+                        <i class=" ti-angle-right"></i>
+                        <a style="text-decoration: none; color: #FF6701;" href="">Quản lý sản phẩm</a>
+                        <i class=" ti-angle-right"></i>
+                        <a style="text-decoration: none; color: #FF6701;" href="">Sản phẩm</a>
+                        </p>
+                    </div>
+                    <div>
+                        <button class="add_new">+Thêm mới</button>
+                    </div>
+                </div>
+
+                <div class="table_content">
+                    <table class="table table-background table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Mô tả sản phẩm</th>
+                                <th>Loại sản phẩm</th>
+                                <th>Giá tiền</th>
+                                <th>Nhóm cứu trợ</th>
+                                <th colspan="2">Tác vụ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SP001</td>
+                                <td>Minino Plus</td>
+                                <td>Thức ăn hạt cho mèo trưởng thành</td>
+                                <td>Thức ăn</td>
+                                <td>55.000</td>
+                                <td>STG</td>
+                                <td>
+                                    <button><i class="ti-pencil-alt"></i></button>
+                                    <a class="fix" href="">Sửa</a>
+                                </td>
+                                <td>
+                                    <button><i class="ti-trash"></i></button>
+                                    <a class="delete" href="">Xoá</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SP002</td>
+                                <td>Đồ chơi nhai gặm</td>
+                                <td>Đồ chơi cho chó mèo</td>
+                                <td>Đồ chơi</td>
+                                <td>25.000</td>
+                                <td>STG</td>
+                                <td>
+                                    <button><i class="ti-pencil-alt"></i></button>
+                                    <a class="fix" href="">Sửa</a>
+                                </td>
+                                <td>
+                                    <button><i class="ti-trash"></i></button>
+                                    <a class="delete" href="">Xoá</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SP003</td>
+                                <td>Thức hạt Fibis</td>
+                                <td>Thức ăn hạt dành cho chó trưởng thành</td>
+                                <td>Thức ăn</td>
+                                <td>55.000</td>
+                                <td>SAR</td>
+                                <td>
+                                    <button><i class="ti-pencil-alt"></i></button>
+                                    <a class="fix" href="">Sửa</a>
+                                </td>
+                                <td>
+                                    <button><i class="ti-trash"></i></button>
+                                    <a class="delete" href="">Xoá</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SP004</td>
+                                <td>Cần câu mèo</td>
+                                <td>Đồ chơi cho mèo: Cần câu</td>
+                                <td>Đồ chơi</td>
+                                <td>36.000</td>
+                                <td>SAR</td>
+                                <td>
+                                    <button><i class="ti-pencil-alt"></i></button>
+                                    <a class="fix" href="">Sửa</a>
+                                </td>
+                                <td>
+                                    <button><i class="ti-trash"></i></button>
+                                    <a class="delete" href="">Xoá</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
+    
 </body>

@@ -1,0 +1,102 @@
+.body {
+  background-color: gray;
+  margin-left: 260px;
+}
+.menu {
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  top: 65px;
+  position: fixed;
+  width: 250px;
+  font-family: Arial;
+}
+
+.management {
+  margin-left: 40px;
+  display: flex;
+  margin-bottom: 10pxs;
+}
+
+.management img {
+  height: 20px;
+}
+
+.info-management {
+  margin-left: 6px;
+  font-weight: bold;
+  color: rgb(127, 187, 243);
+  text-shadow: 0px 3px 9px gray;
+}
+
+.main-menu {
+  margin-left: 9px;
+}
+.main-menu img {
+  height: 7px;
+  margin-right: 6px;
+  margin-top: 5px;
+}
+
+.elements {
+  margin-left: 60px;
+  display: flex;
+  margin-top: 5px;
+  color: rgb(125, 123, 123);
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.elements:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.menu-profile {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+.profile-photo {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.photo {
+  width: 50px;
+}
+
+.profile-overview {
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.admin {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.admin-email {
+  font-size: 14px;
+  color: rgb(125, 123, 123);
+}
+
+.copyright {
+  margin-top: 370px;
+  display: flex;
+  justify-content: center;
+  color: rgb(125, 123, 123);
+  font-size: 14px;
+}
+/* RESPONSIVE */
+@media (max-width: 740px) {
+  #upper-nav, #down-nav, #fowr {
+      margin: 0;
+  }
+}
