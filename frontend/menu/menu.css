@@ -1,49 +1,49 @@
 .body {
   background-color: gray;
-  margin-left: 260px;
+  margin-left: 40vh;
 }
 .menu {
   background-color: white;
   left: 0;
   bottom: 0;
-  top: 65px;
+  top: 10vh;
   position: fixed;
-  width: 250px;
+  width: 37vh;
   font-family: Arial;
 }
 
 .management {
-  margin-left: 40px;
+  margin-left: 4vh;
   display: flex;
-  margin-bottom: 10pxs;
+  margin-bottom: 1vh;
 }
 
 .management img {
-  height: 20px;
+  height: 3vh;
 }
 
 .info-management {
-  margin-left: 6px;
+  margin-left: 1.5vh;
   font-weight: bold;
   color: rgb(127, 187, 243);
-  text-shadow: 0px 3px 9px gray;
+  font-size: 2.4vh;
 }
 
 .main-menu {
-  margin-left: 9px;
+  margin-left: 1vh;
 }
 .main-menu img {
-  height: 7px;
-  margin-right: 6px;
-  margin-top: 5px;
+  height: 0.9vh;
+  margin-right: 1vh;
+  margin-top: 0.75vh;
 }
 
 .elements {
-  margin-left: 60px;
+  margin-left: 8vh;
   display: flex;
-  margin-top: 5px;
+  margin-top: 1vh;
   color: rgb(125, 123, 123);
-  font-size: 14px;
+  font-size: 2vh;
   transition: color 0.3s;
 }
 
@@ -54,43 +54,43 @@
 
 .menu-profile {
   display: grid;
-  grid-template-columns: 50px 1fr;
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-bottom: 35px;
+  grid-template-columns: 8vh 1fr;
+  margin-top: 4vh;
+  margin-left: 3vh;
+  margin-bottom: 3vh;
 }
 
 .profile-photo {
   cursor: pointer;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 3.75vh;
 }
 
 .photo {
-  width: 50px;
+  width: 7.5vh;
 }
 
 .profile-overview {
-  width: 200px;
-  margin-left: 15px;
-  margin-top: 4px;
+  width: 20vh;
+  margin-left: 2.5vh;
+  margin-top: 0.65vh;
   cursor: pointer;
 }
 
 .admin {
-  font-size: 25px;
+  font-size: 3.3vh;
   font-weight: bold;
 }
 
 .admin-email {
-  font-size: 14px;
+  font-size: 2vh;
   color: rgb(125, 123, 123);
 }
 
 .copyright {
-  margin-top: 370px;
+  margin-top: 50vh;
   display: flex;
   justify-content: center;
   color: rgb(125, 123, 123);
-  font-size: 14px;
+  font-size: 2vh;
 }
