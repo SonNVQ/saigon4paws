@@ -47,7 +47,6 @@ button{
     height: 500px;
     overflow: auto;
     padding-left: 12px;
-    padding-right: -12px;
 }
 .table_content::-webkit-scrollbar{
     width: 5px;
