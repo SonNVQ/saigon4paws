@@ -94,3 +94,9 @@
   color: rgb(125, 123, 123);
   font-size: 14px;
 }
+/* RESPONSIVE */
+@media (max-width: 740px) {
+  #upper-nav, #down-nav, #fowr {
+      margin: 0;
+  }
+}

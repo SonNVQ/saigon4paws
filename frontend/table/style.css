@@ -1,6 +1,3 @@
-.main-content{
-    display: flexbox;
-}
 *{
     margin: 0;
     padding: 0;
@@ -11,15 +8,18 @@ body{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
 }
+.main-content{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .table{
-    width: 100%;
-    padding: 30px;    
+    width: 85%;
+    padding: 45px;  
 }
 .table_header{
-    display: flex;
-    align-items: center;
-    padding: 10px 300px;
     color: #FF6701;
+    padding-bottom: 30px;
+    padding-left: 12px;
 }
 button{
     outline: none;
@@ -36,10 +36,18 @@ button{
 .ti-pencil-alt,.ti-trash{
     color: #FF6701;
 }
+.fix,.delete{
+    text-decoration: none;
+    color: black;
+}
+.fix:hover,.delete:hover{
+    color: #FEA82F;
+}
 .table_content{
-    padding: 10px 300px;
     height: 500px;
     overflow: auto;
+    padding-left: 12px;
+    padding-right: -12px;
 }
 .table_content::-webkit-scrollbar{
     width: 5px;
@@ -53,11 +61,12 @@ button{
 table{
     border-collapse: collapse;                
     border-radius: 10px;
+    width: 100%;
 }
 th,td{
     border-bottom: 1px solid #687581;
-    height: 40px;
-    width: 50px;
+    height: 70px;
+    width: 700px;
 }
 .table.table-background{
     background: #fff;
@@ -133,9 +142,9 @@ img.logo-main {
     background-color: white;
     left: 0;
     bottom: 0;
-    top: 80px;
+    top: 11vh;
     position: fixed;
-    width: 250px;
+    width: 15%;
     font-family: Arial;
   }
   
