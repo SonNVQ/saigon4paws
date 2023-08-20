@@ -4,7 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
+    
 }
 /* Thanh hình thức chuyển khoản */
 #method-status {
@@ -14,7 +14,6 @@
     height: 80px;
 }
 
-
 #method {
     list-style-type: none;
     display: flex;
@@ -23,11 +22,9 @@
     padding: 0;
 }
 
-
 #method li {
     margin: 0 5px;
 }
-
 
 #method li.bold a {
     font-weight: bolder;
@@ -36,14 +33,12 @@
     font-size: larger;
 }
 
-
 #method li a {
     text-decoration: none;
     font-size: larger;
     font-weight: bolder;
     color: rgba(81,111,156,0.6)
 }
-
 
 /* Form chọn hình thức thanh toán */
 .form-method{
@@ -52,19 +47,17 @@
     left: 0;
     bottom: 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
     min-height: 700px;
     background-color: rgb(252, 236, 221);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-
 .method-container{
     width: 1000px;
     min-height: 200px;
 }
-
 
 .method-container .method-header{
     background-color: white;
@@ -79,18 +72,16 @@
     border-top-right-radius: 30px;
 }
 
-
 .method-container .method-body{
     background-color: white;
     padding: 0px 50px 10px 50px ;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Căn giữa theo chiều ngang */
     justify-content: center;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-
 
 .internet-bank{
     display: flex;
@@ -109,13 +100,7 @@
     color: rgba(0, 0, 0, 0.6);
     font-size: 18px;
     flex: 1;
-    cursor: pointer;
-    caret-color: transparent; 
-    border: none; 
-    outline: none; 
-    background: none; 
 }
-
 
 .transfer{
     display: flex;
@@ -133,17 +118,9 @@
     padding: 0;
     background: none;
     color: rgba(0, 0, 0, 0.6);
-    font-size: 18px;
+    font-size: 16px;
     flex: 1;
-    cursor: pointer;
-
-    caret-color: transparent; /* Ẩn con trỏ */
-        border: none; /* Ẩn viền */
-        outline: none; /* Loại bỏ đường viền khi focus */
-        background: none; 
 }
-
-
 
 
 #cont-button {
@@ -158,12 +135,4 @@
     margin: 30px auto;
     text-transform: uppercase;
     font-weight: 700;
-}
-
-
-.internet-bank .momo:focus, 
-.transfer .debit:focus {
-    background-color: rgb(252, 236, 221); /* Màu nền khi chọn */
-    padding: 20px;
-    border-radius: 40px;
 }

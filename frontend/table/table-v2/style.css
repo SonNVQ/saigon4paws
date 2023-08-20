@@ -8,15 +8,18 @@ body{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
 }
+.main-content{
+  display: flex;
+  flex-direction: row-reverse;
+}
 .table{
-    width: 100%;
+    width: 85%;
     padding: 55px;
 }
 .table_header{
-    display: flex;
-    align-items: center;
-    padding: 10px 275px;
     color: #FF6701;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 button{
     outline: none;
@@ -28,9 +31,9 @@ button{
     padding: 10px 20px;
     color: #fff;
     background-color: #FF6701;
+    box-shadow: 1px 2px #687581;
 }
 .table_content{
-    padding: 10px 275px;
     height: 500px;
     overflow: auto;
 }
@@ -112,9 +115,9 @@ img.logo-main {
     background-color: white;
     left: 0;
     bottom: 0;
-    top: 80px;
+    top: 11vh;
     position: fixed;
-    width: 250px;
+    width: 15%;
     font-family: Arial;
   }
   

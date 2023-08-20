@@ -1,49 +1,49 @@
 .body {
   background-color: gray;
-  margin-left: 40vh;
+  margin-left: 260px;
 }
 .menu {
   background-color: white;
   left: 0;
   bottom: 0;
-  top: 10vh;
+  top: 65px;
   position: fixed;
-  width: 37vh;
+  width: 250px;
   font-family: Arial;
 }
 
 .management {
-  margin-left: 4vh;
+  margin-left: 40px;
   display: flex;
-  margin-bottom: 1vh;
+  margin-bottom: 10pxs;
 }
 
 .management img {
-  height: 3vh;
+  height: 20px;
 }
 
 .info-management {
-  margin-left: 1.5vh;
+  margin-left: 6px;
   font-weight: bold;
   color: rgb(127, 187, 243);
-  font-size: 2.4vh;
+  text-shadow: 0px 3px 9px gray;
 }
 
 .main-menu {
-  margin-left: 1vh;
+  margin-left: 9px;
 }
 .main-menu img {
-  height: 0.9vh;
-  margin-right: 1vh;
-  margin-top: 0.75vh;
+  height: 7px;
+  margin-right: 6px;
+  margin-top: 5px;
 }
 
 .elements {
-  margin-left: 8vh;
+  margin-left: 60px;
   display: flex;
-  margin-top: 1vh;
+  margin-top: 5px;
   color: rgb(125, 123, 123);
-  font-size: 2vh;
+  font-size: 14px;
   transition: color 0.3s;
 }
 
@@ -54,43 +54,49 @@
 
 .menu-profile {
   display: grid;
-  grid-template-columns: 8vh 1fr;
-  margin-top: 4vh;
-  margin-left: 3vh;
-  margin-bottom: 3vh;
+  grid-template-columns: 50px 1fr;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 35px;
 }
 
 .profile-photo {
   cursor: pointer;
   width: 100%;
-  border-radius: 3.75vh;
+  border-radius: 25px;
 }
 
 .photo {
-  width: 7.5vh;
+  width: 50px;
 }
 
 .profile-overview {
-  width: 20vh;
-  margin-left: 2.5vh;
-  margin-top: 0.65vh;
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 4px;
   cursor: pointer;
 }
 
 .admin {
-  font-size: 3.3vh;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .admin-email {
-  font-size: 2vh;
+  font-size: 14px;
   color: rgb(125, 123, 123);
 }
 
 .copyright {
-  margin-top: 50vh;
+  margin-top: 370px;
   display: flex;
   justify-content: center;
   color: rgb(125, 123, 123);
-  font-size: 2vh;
+  font-size: 14px;
+}
+/* RESPONSIVE */
+@media (max-width: 740px) {
+  #upper-nav, #down-nav, #fowr {
+      margin: 0;
+  }
 }
