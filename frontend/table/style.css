@@ -10,11 +10,10 @@ body{
 }
 .main-content{
     display: flex;
-    flex-direction: row-reverse;
 }
 .table{
-    width: 85%;
     padding: 45px;  
+    flex: 1 0 85%;
 }
 .table_header{
     color: #FF6701;
@@ -142,7 +141,6 @@ img.logo-main {
     left: 0;
     bottom: 0;
     top: 11vh;
-    position: fixed;
     width: 15%;
     font-family: Arial;
   }
