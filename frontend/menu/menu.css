@@ -6,7 +6,7 @@
   background-color: white;
   left: 0;
   bottom: 0;
-  top: 10vh;
+  top:0;
   position: fixed;
   width: 37vh;
   font-family: Arial;
@@ -92,15 +92,5 @@
   display: flex;
   justify-content: center;
   color: rgb(125, 123, 123);
-<<<<<<< HEAD
   font-size: 14px;
-}
-/* RESPONSIVE */
-@media (max-width: 740px) {
-  #upper-nav, #down-nav, #fowr {
-      margin: 0;
-  }
-=======
-  font-size: 2vh;
->>>>>>> d6bca1b30c4b0fec1ae22b31a5b6ec69dcbcd776
 }
