@@ -28,6 +28,7 @@ html {
 
 #nav-contact {
     float: right;
+    display: flex;
 }
 
 #nav-contact > li, #nav-location {
@@ -177,6 +178,7 @@ p.credit {
 
 .footer-icon {
     float: right;
+    display: flex;
 }
 
 .footer-icon a {
