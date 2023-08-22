@@ -161,22 +161,24 @@ html {
 /* Homepage Content*/
 #homepage-content{
     padding-bottom: 6vh;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
- .content-top{
+.content-top{
+    padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
- }
+}
 .product-img img{
     width: 200px;
     height: auto;
     padding: 10px 30px;
 }
 .supplier{
-    color: #FFC288;
+    color: #FF6701;
     font-size: 15px;
     padding-left: 20px;
+    display: flex;
 }
 .product-title{
     font-size: 17px;
@@ -186,11 +188,19 @@ html {
 .product-type, .product-size, .product-weight, .product-brand{
     font-size: 15px;
     padding-bottom: 10px;
+    display: flex;
+}
+.front{
+    font-weight: 500;
+}
+.behind{
+    padding-left: 7px;
 }
 .product-price{
-    color: #FFC288;
+    color: #FF6701;
     font-size: 15px;
     padding-bottom: 10px;
+    display: flex;
 }
 button{
     outline: none;
@@ -205,6 +215,7 @@ button{
 }
 
 .content-bottom{
+    padding-top: 50px;
     padding-bottom: 15px;
     padding-left: 20px;
 }
