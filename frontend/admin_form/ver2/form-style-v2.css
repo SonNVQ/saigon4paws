@@ -166,14 +166,67 @@ img.logo-main {
     justify-content: center;
     color: rgb(125, 123, 123);
     font-size: 14px;
-  }
+}
+
+/* MENU SIDEBAR & FORM */
+
+.wrapper {
+    display: flex;
+    background: #eaeaea;
+    /* gap: 19%; */
+    height: 100%;
+}
+
+.form {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 85%;
+}
+
+/* BREAD CRUMB */
+ul.breadcrumb {
+  padding: 1rem 1.6rem;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.6rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #FF6701;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #FF6701;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 
 /* Khung chứa form */
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .container {
     max-width: 70rem;
     width: 100%;
-    margin: 20rem 15rem 30rem;
+    /* margin: 20rem 15rem 30rem; */
     background-color: #fff;
     border-radius: .5rem;
 }
@@ -223,8 +276,12 @@ img.logo-main {
 .first-line .box-1 {
     display: flex;
     flex-wrap: wrap;
-    width: 26vw;
+    width: 50%;
     gap: 2rem;
+}
+
+.first-line .box-1 .select {
+    width: 100%;
 }
 
 /* Khung hình ảnh */
@@ -285,7 +342,7 @@ img.logo-main {
 .container form .rows input,
 form .pets-details-info input {
     height: 4.2rem;
-    /* width: 100%; */
+    width: 50%;
     font-size: 1rem;
     color: #000;
     border-radius: 2.5rem;
@@ -311,7 +368,7 @@ form .pets-details-info input {
 
 form .pets-details-info input,
 .pets-details-info .select {
-    width: 37rem;
+    width: 65%;
 }
 
 .pets-details-info .input-box {
@@ -337,8 +394,9 @@ form .pets-details-info input,
 
 .edit-btn {
     text-align: right;
-    margin: 0 2.8rem 2.8rem;
-    height: 4.2rem;
+    margin: 0 2.8rem;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
 .edit-btn input {
@@ -390,7 +448,7 @@ select::-ms-expand {
 .select {
     position: relative;
     display: flex;
-    width: 26.6rem;
+    width: 50%;
     height: 4.2rem;
     line-height: 4.2;
     background: #EDF2F7;
@@ -415,56 +473,4 @@ select::-ms-expand {
 
 .select:hover::after {
     color: #FEA82F;
-}
-
-/* BEGIN: FOOTER */
-#footer {
-    --heightFoot: 6vh; /*Chiều dài Footer*/
-    height: var(--heightFoot);
-    background-color: #FEA82F;
-    position: fixed;
-}
-
-#fowr {
-    line-height: var(--heightFoot);
-    display: block;
-}
-
-p.credit {
-    display: inline-block;
-    color: #fcecdd;
-    padding: 0 7px;
-}
-
-.footer-icon {
-    float: right;
-    display: flex;
-}
-
-.footer-icon a {
-    font-size: 24px;
-    font-weight: 400;
-    color: #fcecdd;
-    text-decoration: none;
-    padding: 0 10px;
-}
-
-.footer-icon a:hover {
-    opacity: 75%;
-}
-
-/* END: FOOTER */
-
-.wrapper {
-    display: flex;
-    background: wheat;
-    /* gap: 19%; */
-    height: 100%;
-}
-
-.form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 85%;
 }
