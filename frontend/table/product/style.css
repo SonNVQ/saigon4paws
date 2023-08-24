@@ -115,9 +115,7 @@ html {
 
 #slider {
     width: 100%;
-    margin-top: -10rem;
-    padding-top: 50%;
-    padding-bottom: 22rem;
+    padding-top: 25%;
     background: url(https://vuipet.com/uploads/images/kinh-nghiem-cham-cho/cho-con-an-gi/thuc-an-hat-cho-cho-2.jpg) 
     top center / cover no-repeat;
     position: relative;
