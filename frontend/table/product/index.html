@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/frontend/table/table-v2/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Header phụ -->
+            <div class="sub-header">
+                <!-- Địa chỉ -->
+                <div class="location">
+                    <i class="icon ti-location-pin"></i>
+                    <div class="text-location">TP.HCM - Việt Nam</div>
+                </div>
+                <!-- Các nút điều hướng nhanh -->
+                <ul class="nav">
+                    <li><a href="#">Quản lý</a></li>
+                    <li class="icon-nav">
+                        <i class="icon ti-comment"></i>
+                        <a href="#">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">Eng</a></li>
+                </ul>  
+            </div>
+            <!-- Begin: Header chính -->
+            <div class="main-header nav-open">
+                <!-- Logo Saigon4paws -->
+                <img src="/frontend/template/assets/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
+
+                <input type="checkbox" id="check">
+                <label for="check" class="check-btn">
+                    <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+                </label>
+
+                <!-- Các nút chức năng -->
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                        <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                        <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                        <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                        <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                        <li><a class="main-nav-link" href="#">bài viết</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Begin: Slider -->
+        <div id="slider">
+            <div class="about-content">
+                <h2 class="about-heading">sản phẩm</h2>
+                <div class="about-des">Bán các sản phẩm gây quỹ</div>
+            </div>
+        </div>
+
+        <!-- Begin: Content -->
+        <div id="homepage-content">
+            <!-- Bảng chọn -->
+            <div class="select-menu">
+                <div class="select-menu_in">
+                    <div class="select">
+                        <p>Trạm cứu trợ</p>
+                        <div class="select-in">
+                            <span class="all">Tất cả</span>
+                            <i class="ti-angle-down"></i>
+                        </div>
+                    </div>
+                    <ul class="options">
+                        <li class="option">
+                            <span class="option-text">SGT</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">SAR</span>
+                        </li>
+                    </ul>
+                </div> 
+
+                <div class="select-menu-in">
+                    <div class="select">
+                        <p>Loại sản phẩm</p>
+                        <div class="select-in">
+                            <span class="all">Tất cả</span>
+                            <i class="ti-angle-down"></i>
+                        </div>                    
+                    </div>
+                    <ul class="options">
+                        <li class="option">
+                            <span class="option-text">Thức ăn</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Đồ chơi</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bt-find">
+                    <button class="find">Tìm kiếm</button>
+                </div>
+                <script src="script.js"></script>
+            </div>
+             
+            <!-- Danh sách sản phẩm -->
+            <div class="product-main">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="https://bizweb.dktcdn.net/100/091/443/products/5ff4deaf87966bbb20073f0dc70cdd6d.png?v=1685590218620" alt="">
+                    </div>
+                    <div class="product-contain">
+                        <div class="product-title">
+                            <a class="title" href="">Minino Plus thức ăn hạt cho mèo trưởng thành</a>
+                        </div>
+                        <div class="price">
+                            <p>55.000 đ</p>
+                        </div>
+                        <div class="tram">
+                            <p>SGT</p>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="/frontend/table/table-v2/img/bone.png" alt="">
+                    </div>
+                    <div class="product-contain">
+                        <div class="product-title">
+                            <a class="title" href="">Đồ chơi nhai gặm cho chó mèo</a>
+                        </div>
+                        <div class="price">
+                            <p>25.000 đ</p>
+                        </div>
+                        <div class="tram">
+                            <p>SGT</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="https://vitalimeifn.com/thumbs/560x530x2/upload/product/fibs-15kg-1937.jpg" alt="">
+                    </div>
+                    <div class="product-contain">
+                        <div class="product-title">
+                            <a class="title" href="">Thức ăn hạt dành cho chó trưởng thành Fibs</a>
+                        </div>
+                        <div class="price">
+                            <p>55.000 đ</p>
+                        </div>
+                        <div class="tram">
+                            <p>SAR</p>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="/frontend/table/table-v2/img/meogame.png" alt="">
+                    </div>
+                    <div class="product-contain">
+                        <div class="product-title">
+                            <a class="title" href="">Đồ chơi cho mèo - Cần câu mèo</a>
+                        </div>
+                        <div class="price">
+                            <p>36.000 đ</p>
+                        </div>
+                        <div class="tram">
+                            <p>SAR</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Begin: Footer -->
+        <div id="footer">
+            <div class="org-name">@2023 saigon4paws</div>
+            <ul class="icon-apps">
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-email"></i></a></li>
+            <ul>
+            </div>
+    </div>
+</body>
+</html>

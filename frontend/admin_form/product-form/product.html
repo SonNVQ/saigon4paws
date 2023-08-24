@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/frontend/admin_login/asset/fonts/themify-icons/themify-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- MENU TOP -->
+    <div id="header">
+        <div id="upper-nav">
+            <!-- Location -->
+            <a href="#" id="nav-location">
+                <i class="location ti-location-pin"></i>
+                Hồ Chí Minh
+            </a>
+            
+            <!-- Menu contact -->
+            <ul id="nav-contact">
+                    <li>
+                        <a href="#">
+                            <i class="nav-comment ti-comment"></i>
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- MENU DOWN -->
+        <div id="nav">
+            <a href="#" id="down-nav">
+                <img src="/frontend/admin_login/asset/img/logo-brand.png" alt="LOGO" class="logo-main">
+            </a>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+
+        <!-- MENU SIDE BAR -->
+        <div class="menu">
+            <div class="menu-profile">
+              <div class="profile-photo">
+                <img class="photo"src="/menu-pic/profile_photo.png">
+              </div>
+          
+              <div class="profile-overview">
+                <div class="admin">Admin</div>
+                <div class="admin-email">Admin@email.com</div>
+              </div>
+            </div>
+  
+            <div class="management">
+              <img src="/menu-pic/icon 2.png">
+              <div class="info-management"> Quản lý thông tin</div>
+            </div>
+  
+            <div class="main-menu">
+              <div class="elements">
+                <img src="/menu-pic/light-orange.png">
+                <div>Vật nuôi</div>
+              </div>
+  
+              <div class="elements">
+                <img src="/menu-pic/dark orange.png">
+                <div>Bài viết</div>
+              </div>
+  
+              <div class="elements">
+                <img src="/menu-pic/light-orange.png">
+                <div>Nhóm cứu trợ</div>
+              </div>
+  
+              <div class="elements">
+                <img src="/menu-pic/dark orange.png">
+                <div>Nhà tài trợ</div>
+              </div>
+  
+              <div class="elements">
+                <img src="/menu-pic/light-orange.png">
+                <div>Sản phẩm</div>
+              </div>
+  
+              <div class="copyright">@2023 saigon4paws</div>
+            </div>
+        </div>
+
+        
+        <!-- FORM -->
+        <div class="form">
+
+            <ul class="breadcrumb">
+                <li><a href="#">Quản lý thông tin</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li>Thêm thông tin</li>
+            </ul>
+            
+
+            <div class="box">
+
+                <div class="container">
+                    <div class="title">THÊM SẢN PHẨM</div>
+                    <div class="content">
+                        <!-- Begin: Form điền thông tin cơ bản -->
+                        <form action="#">
+                            <div class="pets-basic-info">
+                                <div class="first-line">
+                                    <div class="box-1">
+                                        <div class="sub-title-1">THÔNG TIN CƠ BẢN</div>
+                                        <div class="select">
+                                            <select>
+                                                <option selected disabled>Loại sản phẩm</option>
+                                                <option value="">Thức ăn</option>
+                                                <option value="">Đồ chơi</option>
+                                                <option value="">Phụ kiện</option>
+                                                <option value="">Khác</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="select">
+                                            <select>
+                                                <option selected disabled>Nhóm cứu trợ</option>
+                                                <option value="">SGT</option>
+                                                <option value="">SAR</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="upload">
+                                        <img src="/frontend/admin_form/assets/img/1.png" width = 100 height = 100 alt="">
+                                        <div class="round">
+                                            <input type="file">
+                                            <i class = "ti-upload" style = "color: #fff;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </form>
+                        <!-- Begin: Form điền thông tin cụ thể-->
+                        <div class="sub-title-2">THÔNG TIN CỤ THỂ</div>
+                        <form action="#">
+                            <div class="pets-details-info">
+                                <div class="input-box">
+                                    <div class="details">Tên sản phẩm:</div>
+                                    <input type="text" placeholder="Tên sản phẩm" required>
+                                </div>   
+                                <div class="input-box">
+                                    <div class="details">Mô tả sản phẩm:</div>
+                                    <input type="text" placeholder="Mô tả sản phẩm" required>
+                                </div>   
+                                <div class="input-box">
+                                    <div class="details">Giá tiền:</div>
+                                    <input type="number" placeholder="Giá tiền" required>
+                                </div>   
+                            </div>
+                        </form>
+                    </div>
+                    <div class="edit-btn">
+                        <input type="submit" value="Hủy" class="cancel-btn">
+                        <input type="submit" value="Lưu" class="save-btn">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+        
+</body>
+
+<script src="/js/app.js"></script>
+
+</html>

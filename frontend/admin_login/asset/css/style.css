@@ -28,6 +28,7 @@ html {
 
 #nav-contact {
     float: right;
+    display: flex;
 }
 
 #nav-contact > li, #nav-location {
@@ -135,6 +136,7 @@ img.logo-main {
     color: #4a5568;
     padding-top: 14px;
     padding-right: 8px;
+    cursor: pointer;
 }
 
 .btn {
@@ -176,6 +178,7 @@ p.credit {
 
 .footer-icon {
     float: right;
+    display: flex;
 }
 
 .footer-icon a {
