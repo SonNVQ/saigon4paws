@@ -64,49 +64,74 @@
         <!-- Begin: Content -->
         <div id="homepage-content">
             <!-- Bảng chọn -->
+
             <div class="select-menu">
-                <div class="select-menu_in">
-                    <div class="select">
-                        <p>Trạm cứu trợ</p>
-                        <div class="select-in">
-                            <span class="all">Tất cả</span>
-                            <i class="ti-angle-down"></i>
+                <div class="gender-fil">
+                    <h2 class="fil-title">Trạm cứu trợ</h2>
+                    
+                    <div class="select-box">
+                        <div class="selected">
+                            Tất cả
+                            <i class="list-icon ti-angle-down"></i>
+                        </div>
+        
+                        <div class="gen-opt-container">
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="all" name="category">
+                                <label for="all">Tất cả</label>
+                            </div>
+        
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="male" name="category">
+                                <label for="male">SGT</label>
+                            </div>
+        
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="fmale" name="category">
+                                <label for="fmale">SAR</label>
+                            </div>
+    
                         </div>
                     </div>
-                    <ul class="options">
-                        <li class="option">
-                            <span class="option-text">SGT</span>
-                        </li>
-                        <li class="option">
-                            <span class="option-text">SAR</span>
-                        </li>
-                    </ul>
                 </div> 
-
-                <div class="select-menu-in">
-                    <div class="select">
-                        <p>Loại sản phẩm</p>
-                        <div class="select-in">
-                            <span class="all">Tất cả</span>
-                            <i class="ti-angle-down"></i>
-                        </div>                    
+    
+                <div class="gender-fil">
+                    <h2 class="fil-title">Loại sản phẩm</h2>
+                    
+                    <div class="select-box">
+                        <div class="selected">
+                            Tất cả
+                            <i class="list-icon ti-angle-down"></i>
+                        </div>
+        
+                        <div class="gen-opt-container">
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="all" name="category">
+                                <label for="all">Tất cả</label>
+                            </div>
+        
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="male" name="category">
+                                <label for="male">Thức ăn</label>
+                            </div>
+        
+                            <div class="gen-opt">
+                                <input type="radio" class="gen-radio" id="fmale" name="category">
+                                <label for="fmale">Đồ chơi</label>
+                            </div>
+    
+                        </div>
                     </div>
-                    <ul class="options">
-                        <li class="option">
-                            <span class="option-text">Thức ăn</span>
-                        </li>
-                        <li class="option">
-                            <span class="option-text">Đồ chơi</span>
-                        </li>
-                    </ul>
+                </div>     
+    
+                    <div class="bt-find">
+                        <button class="find">Tìm kiếm</button>
+                    </div>
+                    <script src="script.js"></script>
                 </div>
-
-                <div class="bt-find">
-                    <button class="find">Tìm kiếm</button>
-                </div>
-                <script src="script.js"></script>
+                 
             </div>
-             
+            
             <!-- Danh sách sản phẩm -->
             <div class="product-main">
                 <div class="product">
@@ -185,7 +210,7 @@
                 <li><a href="#"><i class="ti-instagram"></i></a></li>
                 <li><a href="#"><i class="ti-email"></i></a></li>
             <ul>
-            </div>
+        </div>
     </div>
 </body>
 </html>
