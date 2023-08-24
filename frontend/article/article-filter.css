@@ -1,0 +1,210 @@
+.body {
+  margin-top: 17.1vh;
+  font-family: Arial;
+  background-color: rgb(231, 166, 175);
+}
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider img {
+  width: 100%;
+  height: 30vh;
+}
+
+.title-intro {
+  position: absolute;
+  bottom: 15vh;
+  left: 15vh;
+  color: white;
+  width: 100vh;
+}
+
+.title {
+  font-size: 4.5vh;
+  margin-bottom: 1vh;
+}
+
+.intro {
+  font-size: 2vh;
+}
+
+.search-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vh;
+  margin-right: 2vh;
+}
+
+.filter-name {
+  color: gray;
+  margin-bottom: 0.5vh;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.dropdown {
+
+}
+
+.dropdown select {
+  width: 100%;
+  border: 0.35vh solid orange;
+  border-radius: 2vh;
+  padding: 1vh;
+  font-size: 2vh;
+  color: gray;
+}
+
+.dropdown select:hover {
+  background-color: orange;
+  color: white;
+  border: 0.35vh solid orange;
+  cursor: pointer;  
+}
+
+.dropdown select option:hover {
+  background-color: gray;
+  color: white;
+}
+
+.datepicker {
+  border: 0.35vh solid orange;
+  color: gray;
+  font-size: 2vh;
+  padding: 1vh;
+  border-radius: 2vh;
+}
+
+.datepicker:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer; 
+}
+
+.calendar {
+  width: 100%;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+.search {
+  background-color: orange;
+  width: 15vh;
+  margin-top: 3.1vh;
+  border-radius: 2vh;
+  margin-left: 2vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  font-weight: bold;
+  font-size: 1.8vh;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search:hover {
+  background-color: white;
+  color: orange;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-1 {
+  border-radius: 3vh;
+  background-color: white;
+  margin-right: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-2 {
+  border-radius: 3vh;
+  background-color: white;
+  margin-left: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  position: absolute;
+  bottom: 13vh;
+  left: 5vh;
+  background-color: rgb(231, 166, 175);
+  padding: 1vh 2.5vh 1vh 2.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4vh;
+}
+
+.day {
+  padding-left: 0vh;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.dash {
+  font-size: 2vh;
+  width: 2vh;
+}
+
+.content-overview {
+  width: 40vh;
+  margin-top: 5vh;
+  font-size: 2.4vh;
+  margin-bottom: 1.4vh;
+}
+
+.article-content img {
+  border-radius: 3vh 3vh 0vh 0vh;
+  height: 24vh;
+  width: 60.25vh;
+}
+
+.detail-2 {
+  margin-top: 2.9vh;
+}
+
+.detail-1,
+.detail-2 {
+  padding: 0.75vh 2vh 0.75vh 2vh;
+  border-radius: 1.25vh;
+  border: none;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5vh;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.detail-1:hover,
+.detail-2:hover {
+  background-color: lightgrey;
+  color: orange;
+}
