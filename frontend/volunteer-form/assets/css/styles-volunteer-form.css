@@ -91,7 +91,8 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url('/assets/css/img/calendar-icon.png') no-repeat right center;
+    background: url('img/calendar-icon.png') no-repeat right center;
+    size: 50%;
 }
 
 /* 3 dòng cuối */
