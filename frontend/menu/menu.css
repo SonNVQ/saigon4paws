@@ -6,8 +6,13 @@
   background-color: white;
   left: 0;
   bottom: 0;
+<<<<<<< Updated upstream
   top:0;
   position: fixed;
+=======
+  top: 10vh;
+
+>>>>>>> Stashed changes
   width: 37vh;
   font-family: Arial;
 }
