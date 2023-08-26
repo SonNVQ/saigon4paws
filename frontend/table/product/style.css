@@ -172,7 +172,7 @@ html {
     justify-content: center;
 }
 .gender-fil {
-    width: 20vh;
+    width: 25vh;
     padding: 15px;
 } 
 
@@ -255,7 +255,7 @@ button{
     cursor: pointer;
 }
 .bt-find{
-    padding: 20px;
+    padding: 45px;
 }
 .find{
     padding: 5px 10px;
@@ -271,22 +271,23 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 30px;
+    padding: 30px;
     flex-wrap: wrap;
+    padding-top: 0;
 }
 .product{
     margin: 40px;
     background: #FCECDD;
     border-radius: 30px;
-    width: 200px;
+    width: 250px;
 }
 .product-img img{
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 250px;
     padding: 10px 30px;
 }
 .product-contain{
-    padding-left: 7px;
+    padding-left: 15px;
     padding-bottom: 10px;
 }
 .product-title .title{
@@ -295,6 +296,9 @@ button{
     font-size: 17px;
     font-weight: 700;
     
+}
+.product-title .title:hover{
+    color: #697582
 }
 .product .price{
     font-size: 15px;
