@@ -12,10 +12,6 @@ html {
 
 body {
     height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: bisque; */
 }
 
 #wrap {
@@ -167,7 +163,7 @@ img.logo-main {
     font-size: 14px;
 }
 
-/* MENU SIDEBAR & FORM */
+/* FORM */
 
 .wrapper {
     display: flex;
