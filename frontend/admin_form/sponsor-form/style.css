@@ -12,11 +12,6 @@ html {
 
 body {
     height: 100vh;
-    overflow: hidden;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: bisque; */
 }
 
 /* BEGIN: HEADER */

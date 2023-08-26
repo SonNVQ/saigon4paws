@@ -76,7 +76,7 @@
   
   .post-sgt-cleaner-task li::before {
     content: "";
-    background-image: url("/assets/css/img/paw-outline.png");
+    background-image: url("img/paw-outline.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 20px;

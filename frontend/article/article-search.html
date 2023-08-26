@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
-    <link rel="stylesheet" href="article-header-footer.css">
+    <link rel="stylesheet" href="/frontend/template/assets/css/style.css">
     <link rel="stylesheet" href="/frontend/template/assets/css/queries.css">
     <link rel="stylesheet" href="/frontend/template/assets/font/themify-icons/themify-icons.css">
 
@@ -31,21 +31,29 @@
           </li>
           <li><a href="#">Eng</a></li>
         </ul>  
-      </div>
-      <!-- Begin: Header chính -->
-      <div class="main-header">
-        <!-- Logo Saigon4paws -->
-        <img src="/article-pic/logo.png" alt="Logo Saigon4paws" class="logo-img">
-        <!-- Các nút chức năng -->
-        <ul class="nav">
-          <li><a href="#">trang chủ</a></li>
-          <li><a href="#">tài trợ</a></li>
-          <li><a href="#">vật nuôi</a></li>
-          <li><a href="#">tình nguyện</a></li>
-          <li><a href="#">sản phẩm</a></li>
-          <li><a href="#">bài viết</a></li>
-        </ul>
-      </div>
+    </div>
+        <!-- Begin: Header chính -->
+        <div class="main-header nav-open">
+          <!-- Logo Saigon4paws -->
+          <img src="/frontend/template/assets/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
+
+          <input type="checkbox" id="check">
+          <label for="check" class="check-btn">
+            <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+          </label>
+
+          <!-- Các nút chức năng -->
+          <nav class="main-nav">
+              <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                <li><a class="main-nav-link" href="#">bài viết</a></li>
+              </ul>
+          </nav>
+        </div>
     </div>
 
     <div class="slider">

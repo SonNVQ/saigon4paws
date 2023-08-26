@@ -74,10 +74,10 @@
     padding: 15px;
 }
 
-.input-column-2 .vol-birth-year select,
+.input-column-2 .vol-birth-year input,
 .input-column-2 .vol-phone-number input {
     width: 100%;
-    text-align: left; 
+    text-align: left;
     margin-bottom: 10px;
     font-size: 16px;
     color: gray;
@@ -85,13 +85,8 @@
     border-radius: 40px;
     border: 0.5px solid rgb(237, 242, 247);
     padding: 15px;
-}
-
-.birth-year-select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: url('/assets/css/img/calendar-icon.png') no-repeat right center;
+    transition: all 0.3s ease;
+    max-width: 100%;
 }
 
 /* 3 dòng cuối */
