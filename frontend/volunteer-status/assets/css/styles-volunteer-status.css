@@ -8,18 +8,20 @@
 }
 .volunteer-status{
     background-color: rgb(252, 236, 221);
-    padding: 0px 20px 20px 30px;
+    padding: 0px 20px 30px 30px;
 }
 .vol-status-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 34px;
 }
 
 .vol-status-img img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 390px;
+    padding-top: 20px;
 }
 
 .vol-status-heading{
