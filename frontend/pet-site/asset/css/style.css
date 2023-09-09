@@ -20,11 +20,15 @@ body {
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
-    margin: 30px 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .gender-fil {
     width: 25vh;
+    height: 83px;
 } 
 
 .fil-title {
@@ -53,6 +57,9 @@ body {
     max-height: 85px;
     opacity: 1;
     overflow-y: scroll;
+    width: 25vh;
+    position: absolute;
+    z-index: 3;
 }
 
 .select-box .gen-opt-container::-webkit-scrollbar {
@@ -70,7 +77,6 @@ body {
     color: #697582;
     max-height: 0;
     width: 100%;
-    transition: all 0.4s;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -117,6 +123,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
     margin-right: auto;
@@ -176,6 +183,29 @@ body {
     font-size: 18px;
     font-weight: 500;
     border-radius: 15px;
+}
+
+@media (max-width: 740px) {
+
+    /* SITE 1 */
+    #filter-site {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .submit-btn {
+        margin-top: 10px;
+    }
+
+    /* SITE 2 */
+    #pet-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
 }
 
 /* SITE 2: PET INFORMATION */

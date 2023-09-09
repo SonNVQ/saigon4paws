@@ -6,46 +6,103 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/styles-payment-status.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/frontend/template/assets/css/style.css">
+    <link rel="stylesheet" href="/frontend/template/assets/css/queries.css">
+    <link rel="stylesheet" href="/frontend/template/assets/font/themify-icons/themify-icons.css">
 </head>
     
 <body>
-    <!-- Thanh xác nhận thanh toán -->
-    <div id="success-status">
-        <ul id="success">
-            <li><a href="">Chọn trạm cứu trợ</a></li>
-            <li><a href="">> Điền thông tin</a></li>
-            <li><a href="">> Chọn phương thức thanh toán</a></li>
-            <li class="bold"><a  href="">> Xác nhận thanh toán </a></li>
-        </ul>
-    </div>
-    <div class="pm-status-content">
-        <!-- Hình chó mèo check -->
-        <div class="pm-catdog">
-            <img src="assets/css/img/pm-catdog.png" alt="">
-        </div>
-
-        <div class="pm-check">
-            <img src="assets/css/img/check.png" alt="">
-        </div>
-
-        <!-- Nội dung xác nhận thanh toán -->
-        <div class="pmst-heading">
-            <h1>Tài trợ thành công!</h1>
-        </div>
-
-        <div class="pmst-para">
-            <h2>Một lần nữa trạm xin chân thành cảm ơn sự quan tâm, <br> giúp đỡ của bạn</h2>
-        </div>
-
-        <!-- Nút quay về sau thanh toán -->
-        <div class="bk">
-            <div class="pmst-button">
-                <a href="#">Về trang chủ</a>
+<!-- Header -->
+    <div id="header">
+        <!-- Begin: Header phụ -->
+        <div class="sub-header">
+            <!-- Địa chỉ -->
+            <div class="location">
+                <i class="icon ti-location-pin"></i>
+                <div class="text-location">TP.HCM - Việt Nam</div>
             </div>
+            <!-- Các nút điều hướng nhanh -->
+            <ul class="nav">
+                <li><a href="#">Quản lý</a></li>
+                <li class="icon-nav">
+                    <i class="icon ti-comment"></i>
+                    <a href="#">
+                        Liên hệ
+                    </a>
+                </li>
+                <li><a href="#">Eng</a></li>
+            </ul>  
         </div>
-        
+        <!-- Begin: Header chính -->
+        <div class="main-header nav-open">
+            <!-- Logo Saigon4paws -->
+            <img src="/frontend/template/assets/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+            </label>
+
+            <!-- Các nút chức năng -->
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                    <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                    <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                    <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                    <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                    <li><a class="main-nav-link" href="#">bài viết</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    
-    
+<!-- Nội dung -->
+    <div id="payment-status">
+            <!-- Thanh xác nhận thanh toán -->
+        <div id="success-status">
+            <ul id="success">
+                <li><a href="">Chọn trạm cứu trợ</a></li>
+                <li><a href="">> Điền thông tin</a></li>
+                <li><a href="">> Chọn phương thức thanh toán</a></li>
+                <li class="bold"><a  href="">> Xác nhận thanh toán </a></li>
+            </ul>
+        </div>
+        <div class="pm-status-content">
+            <!-- Hình chó mèo check -->
+            <div class="pm-catdog">
+                <img src="assets/css/img/pm-catdog.png" alt="">
+            </div>
+
+            <div class="pm-check">
+                <img src="assets/css/img/check.png" alt="">
+            </div>
+
+            <!-- Nội dung xác nhận thanh toán -->
+            <div class="pmst-heading">
+                <h1>Tài trợ thành công!</h1>
+            </div>
+
+            <div class="pmst-para">
+                <h2>Một lần nữa trạm xin chân thành cảm ơn sự quan tâm, <br> giúp đỡ của bạn</h2>
+            </div>
+
+            <!-- Nút quay về sau thanh toán -->
+            <div class="bk">
+                <div class="pmst-button">
+                    <a href="#">Về trang chủ</a>
+                </div>
+            </div>   
+    </div>
+    </div>
+<!-- Footer -->
+    <div id="footer">
+        <div class="org-name">@2023 saigon4paws</div>
+        <ul class="icon-apps">
+            <li><a href="#"><i class="ti-facebook"></i></a></li>
+            <li><a href="#"><i class="ti-instagram"></i></a></li>
+            <li><a href="#"><i class="ti-email"></i></a></li>
+        <ul>
+    </div>
+      
 </body>
 </html>
