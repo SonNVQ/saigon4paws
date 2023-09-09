@@ -66,13 +66,22 @@
         color: #d61c62;
     }
 
-    #slider .about-heading {
+    #slider .about-heading, #homepage-content .content-title {
         font-size: 2.4rem;
     }
 
-    #slider .about-des {
+    #homepage-content .group-name, #homepage-content .content-button {
+        font-size: 1.4rem;
+    }
+
+    #homepage-content .content-button {
+        padding: 10px;
+    }
+
+    #slider .about-des, #homepage-content .group-text {
         font-size: 1.2rem;
     }
+    
 
     #slider .about-btn {
         font-size: 1rem;
