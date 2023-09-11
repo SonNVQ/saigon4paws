@@ -9,6 +9,11 @@
   display: none;
 }
 
+.html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+}
+
 .delete {
   color: orange;
   cursor: pointer;
@@ -20,7 +25,7 @@
 .content {
   font-family: Arial;
   background-color: white;
-  border: 0.5px solid orangered;
+  border: 0.5px solid #ff6701;
   width: 400px;
   height: 150px;
   border-radius: 10px;
@@ -35,42 +40,44 @@
 }
 
 .confirm {
-  background-color: orangered;
+  background-color: #ff6701;
   border-radius: 10px 10px 0 0;
   color: white;
-  font-size: 24px;
+  font-size: 1.8rem;
   padding: 4px 0 4px 0px;
 }
 
 .note {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 1.0rem;
 }
 
 .cancel {
-  background-color: lightgray;
-  color: white;
-  border-radius: 3px;
+  background-color: #fcecdd;
+  color: #ff6701;
+  border-radius: 5vh;
   padding: 10px 30px 10px 30px;
   border: none;
-  font-size: 14px;
+  font-size: 1.0rem;
   margin-right: 12px;
   box-shadow: 0px 5px 10px rgba(128, 128, 128, 10);
   cursor: pointer;
 }
 
 .agree {
-  background-color: orangered;
+  background-color: #ff6701;
   color: white;
-  border-radius: 3px;
+  border-radius: 5vh;
   padding: 10px 21px 10px 21px;
   border: none;
-  font-size: 14px;
+  font-size: 1.0rem;
   margin-left: 12px;
   box-shadow: 0px 5px 10px rgba(128, 128, 128, 10);
   cursor: pointer;
 }
+
+
 
 .pop-up.active .overlay {
   display: block;
