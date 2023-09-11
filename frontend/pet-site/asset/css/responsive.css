@@ -1,0 +1,75 @@
+
+@media (max-width: 62em) {
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /* SITE 1 */
+    #filter-site {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .submit-btn {
+        margin-top: 10px;
+    }
+
+    .fil-title, .pet-name {
+        font-size: 1.6rem;
+    }
+
+    .selected, .submit-btn, .pet-descripton, .tag-content {
+        font-size: 1.4rem;
+    }
+
+    /* SITE 3 */    
+
+    #basis-info {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .input-info-1, .input-info-2 {
+        width: 100%;
+    }
+
+    #adt-btn {
+        flex-direction: column-reverse;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 76em) {
+    /* SITE 2 */
+    #pet-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #pet-img {
+        width: 80%;
+        margin: 20px;
+    }
+
+    #content-description {
+        width: 70%;
+    }
+
+    #pet-name {
+        font-size: 2.4rem;
+    }
+
+    .pet-type, .el-1, .health-status, #btn-group {
+        font-size: 1.6rem;
+    }
+
+    .sub-el-1, .medical-status, .status {
+        font-size: 1.4rem;
+    }
+}
+
+

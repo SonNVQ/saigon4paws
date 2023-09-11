@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -19,6 +20,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -33,7 +35,7 @@ body {
 
 .fil-title {
     color: #697582;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -43,7 +45,7 @@ body {
     border-radius: 15px;
     margin-bottom: 4px;
     color: #697582;
-    font-size: 18px;
+    font-size: 1.6rem;
     border: 2px solid #ff6701;
 }
 
@@ -106,7 +108,7 @@ body {
     background-color: #fea82f;
     color: #fff;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     padding: 15px 20px;
     border-radius: 15px;
 }
@@ -120,6 +122,7 @@ body {
 
 /* BEGIN: PET LIST */
 #menu-pet {
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,12 +169,12 @@ body {
 }
 
 .pet-name {
-    font-size: 24px;
+    font-size: 1.8rem;
     margin-bottom: 8px;
 }
 
 .pet-descripton {
-    font-size: 18px;
+    font-size: 1.6rem;
     color:#697582;
     margin-bottom: 6px;
 }
@@ -180,33 +183,11 @@ body {
     background-color: #ff6701;
     color: #fff;
     padding: 8px;
-    font-size: 18px;
+    font-size: 1.6rem;
     font-weight: 500;
     border-radius: 15px;
 }
 
-@media (max-width: 740px) {
-
-    /* SITE 1 */
-    #filter-site {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .submit-btn {
-        margin-top: 10px;
-    }
-
-    /* SITE 2 */
-    #pet-info {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-
-    }
-
-}
 
 /* SITE 2: PET INFORMATION */
 #pet-info {
@@ -219,6 +200,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #pet-img {
@@ -236,23 +218,27 @@ body {
 }
 
 #content-description {
+    width: 50%;
     margin-right: 40px;
 }
 
 #pet-name {
     text-transform: uppercase;
     margin-bottom: 8px;
+    font-size: 2.8rem;
 }
 
 .pet-type {
     color: #697581;
     margin-bottom: 25px;
+    font-size: 1.8rem;
 }
 
 #info-group {
     display: flex;
     align-items: center;
-    gap: 8vh;
+    justify-content: space-between;
+    flex-grow: 1;
     margin-bottom: 30px;
 }
 
@@ -268,12 +254,12 @@ body {
 }
 
 .el-1 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
 .sub-el-1 {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #697581;
 }
 
@@ -283,21 +269,24 @@ body {
     padding: 10px;
     display: inline-block;
     border-radius: 15px;
+    font-size: 1.6rem;
     margin-bottom: 25px;
 }
 
 .medical-status i {
     padding-left: 10px;
+    font-size: 1.6rem;
 }
 
 .health-status {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
 .status {
     color: #697581;
+    font-size: 1.6rem;
     margin-bottom: 40px;
 }
 
@@ -305,7 +294,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.8rem;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 #btn-group a {
@@ -344,6 +335,7 @@ body {
 }
 
 #adt-heading {
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,14 +349,20 @@ body {
     margin-bottom: 15px;
 }
 
+#main-form {
+    width: 70%;
+}
+
 .adt-headline {
     color: #fea82f;
+    font-size: 2.8rem;
+    text-align: center;
 }
 
 #basis-info {
     display: flex;
+    flex-grow: 1;
     gap: 15px;
-    width: 80vh;
 }
 
 .input-info-1, .input-info-2 {
@@ -397,6 +395,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #adt-btn input, .go-back-btn {
@@ -406,11 +406,9 @@ body {
     border-radius: 20px;
     padding: 15px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     text-decoration: none;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 #adt-btn input:hover, .go-back-btn:hover {
@@ -443,12 +441,14 @@ body {
 .main-ann {
     margin-bottom: 30px;
     text-align: center;
+    font-size: 2.2rem;
 }
 
 .sub-ann {
     margin-bottom: 30px;
     color: #697581;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .ann-contact {
@@ -459,6 +459,7 @@ body {
     color: #fff;
     border-radius: 30px;
     font-weight: 600;
+    font-size: 1.8rem;
 }
 
 .ann-contact:hover {
