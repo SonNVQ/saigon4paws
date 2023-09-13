@@ -14,6 +14,136 @@ body {
     background-color: #fcecdd;
 }
 
+#header {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Sub header */
+
+.sub-header {
+    height: 4.2rem;
+    background-color: #fff;
+    padding: 0 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+.sub-header .location {
+    display: inline-block;
+    color: #697582;
+}
+
+.sub-header .icon {
+    color: #FF6701 !important;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.sub-header .text-location {
+    display: inline-block;
+    padding: 0 0.4rem;
+}
+
+.sub-header li,
+#footer li {
+    display: inline-block;
+}
+
+.sub-header li a {
+    color: #697582;
+}
+
+.sub-header li a:first-child {
+    padding: 0 2.8rem;
+}
+
+.sub-header .icon-nav a {
+    padding-left: 0.4rem;
+}
+
+/* Main header */
+
+.main-header {
+    background-color: #FEA82F;
+    height: 8.6rem;
+    padding: 0 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.main-header .logo-img {
+    margin-top: -1rem;
+}
+
+.main-nav-list {
+    display: flex;
+    gap: 3.6rem;
+    list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #FEF8F8;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+}
+
+/* Nút menu mobile */
+
+.check-btn {
+    margin-right: 0;
+
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* Footer */
+
+#footer {
+    background-color: #FEA82F;
+    height: 6vh;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .org-name {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+#footer .icon-apps a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.2rem;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
 /* SITE 1: PET MENU */
 /* BEGIN: MENU FILTER */
 #filter-site {
@@ -131,6 +261,7 @@ body {
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
 }
 
 .pet-item {
@@ -326,6 +457,7 @@ body {
     background-color: #fff;
     width: 70%;
     margin-top: 30px;
+    margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;
@@ -423,6 +555,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;

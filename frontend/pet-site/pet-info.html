@@ -9,51 +9,108 @@
     <link rel="stylesheet" href="./asset/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
-    <div id="pet-info">
-        <img src="./asset/img/map.jpg" alt="" id="pet-img">
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Header phụ -->
+            <div class="sub-header">
+                <!-- Địa chỉ -->
+                <div class="location">
+                    <i class="icon ti-location-pin"></i>
+                    <div class="text-location">TP.HCM - Việt Nam</div>
+                </div>
+                <!-- Các nút điều hướng nhanh -->
+                <ul class="nav">
+                    <li><a href="#">Quản lý</a></li>
+                    <li class="icon-nav">
+                        <i class="icon ti-comment"></i>
+                        <a href="#">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">Eng</a></li>
+                </ul>  
+            </div>
+            <!-- Begin: Header chính -->
+            <div class="main-header nav-open">
+                <!-- Logo Saigon4paws -->
+                <img src="./asset/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
 
-        <div id="content-description">
-            <h1 id="pet-name">Mập</h1>
-            <p class="pet-type">Chihuahua</p>
+                <input type="checkbox" id="check">
+                <label for="check" class="check-btn">
+                    <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+                </label>
 
-            <div id="info-group">
-                <div class="info-block">
-                    <div class="line-1"></div>
-                    <div>
-                        <h2 class="el-1">Cái</h2>
-                        <p class="sub-el-1">Giới tính</p>
+                <!-- Các nút chức năng -->
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                        <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                        <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                        <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                        <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                        <li><a class="main-nav-link" href="#">bài viết</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- BEGIN: PET INFORMATION -->
+        <div id="pet-info">
+            <img src="./asset/img/map.jpg" alt="" id="pet-img">
+    
+            <div id="content-description">
+                <h1 id="pet-name">Mập</h1>
+                <p class="pet-type">Chihuahua</p>
+    
+                <div id="info-group">
+                    <div class="info-block">
+                        <div class="line-1"></div>
+                        <div>
+                            <h2 class="el-1">Cái</h2>
+                            <p class="sub-el-1">Giới tính</p>
+                        </div>
+                    </div>
+    
+                    <div class="info-block">
+                        <div class="line-1"></div>
+                        <div>    
+                            <h2 class="el-1">2 tuổi</h2>
+                            <p class="sub-el-1">Tuổi</p>
+                        </div>
+                    </div>
+    
+                    <div class="info-block">
+                        <div class="line-1"></div>
+                        <div>
+                            <h2 class="el-1">Trạm SGT</h2>
+                            <p class="sub-el-1">Nhóm cứu trợ</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="info-block">
-                    <div class="line-1"></div>
-                    <div>    
-                        <h2 class="el-1">2 tuổi</h2>
-                        <p class="sub-el-1">Tuổi</p>
-                    </div>
+    
+                <div class="medical-status">
+                    Đã tiêm 2 mũi
+                    <i class="ti-face-smile"></i>
                 </div>
-
-                <div class="info-block">
-                    <div class="line-1"></div>
-                    <div>
-                        <h2 class="el-1">Trạm SGT</h2>
-                        <p class="sub-el-1">Nhóm cứu trợ</p>
-                    </div>
+    
+                <h2 class="health-status">Tình trạng sức khoẻ</h2>
+                <p class="status">Khoẻ mạnh, năng động, thân thiện với người lạ. Và ăn nhiều.</p>
+    
+                <div id="btn-group">
+                    <a href="index.html" class="back-btn">Quay lại</a>
+                    <a href="adopt-form.html" class="next-btn">Đăng ký nhận nuôi</a>
                 </div>
             </div>
+        </div>
 
-            <div class="medical-status">
-                Đã tiêm 2 mũi
-                <i class="ti-face-smile"></i>
-            </div>
-
-            <h2 class="health-status">Tình trạng sức khoẻ</h2>
-            <p class="status">Khoẻ mạnh, năng động, thân thiện với người lạ. Và ăn nhiều.</p>
-
-            <div id="btn-group">
-                <a href="index.html" class="back-btn">Quay lại</a>
-                <a href="adopt-form.html" class="next-btn">Đăng ký nhận nuôi</a>
-            </div>
+        <!-- Begin: Footer -->
+        <div id="footer">
+            <div class="org-name">@2023 saigon4paws</div>
+            <ul class="icon-apps">
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-email"></i></a></li>
+            <ul>
         </div>
     </div>
 </body>

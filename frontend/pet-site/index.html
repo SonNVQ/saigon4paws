@@ -9,253 +9,309 @@
     <link rel="stylesheet" href="./asset/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
-
-    <!-- MENU FILTER -->
-    <div id="filter-site">
-        <!-- FILTER 1 -->
-        <div class="gender-fil">
-            <h2 class="fil-title">Giới tính</h2>
-            
-            <div class="select-box">
-                <div class="selected">
-                    Tất cả
-                    <i class="list-icon ti-angle-down"></i>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Header phụ -->
+            <div class="sub-header">
+                <!-- Địa chỉ -->
+                <div class="location">
+                    <i class="icon ti-location-pin"></i>
+                    <div class="text-location">TP.HCM - Việt Nam</div>
                 </div>
+                <!-- Các nút điều hướng nhanh -->
+                <ul class="nav">
+                    <li><a href="#">Quản lý</a></li>
+                    <li class="icon-nav">
+                        <i class="icon ti-comment"></i>
+                        <a href="#">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">Eng</a></li>
+                </ul>  
+            </div>
+            <!-- Begin: Header chính -->
+            <div class="main-header nav-open">
+                <!-- Logo Saigon4paws -->
+                <img src="./asset/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
 
-                <div class="gen-opt-container">
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="all" name="category">
-                        <label for="all">Tất cả</label>
-                    </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="check-btn">
+                    <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+                </label>
 
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="male" name="category">
-                        <label for="male">Đực</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="fmale" name="category">
-                        <label for="fmale">Cái</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="none" name="category">
-                        <label for="none">Chưa rõ</label>
-                    </div>
-                </div>
+                <!-- Các nút chức năng -->
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                        <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                        <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                        <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                        <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                        <li><a class="main-nav-link" href="#">bài viết</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
 
-        <!-- FILTER 2 -->
-        <div class="gender-fil">
-            <h2 class="fil-title">Giống</h2>
-
-            <div class="select-box">
-                <div class="selected">
-                    Tất cả
-                    <i class="list-icon ti-angle-down"></i>
-                </div>
-
-                <div class="gen-opt-container">
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="all" name="category">
-                        <label for="all">Tất cả</label>
+        <!-- MENU FILTER -->
+        <div id="filter-site">
+            <!-- FILTER 1 -->
+            <div class="gender-fil">
+                <h2 class="fil-title">Giới tính</h2>
+                
+                <div class="select-box">
+                    <div class="selected">
+                        Tất cả
+                        <i class="list-icon ti-angle-down"></i>
                     </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="chihua" name="category">
-                        <label for="chihua">Chihuahua</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="vn" name="category">
-                        <label for="vn">Chó cỏ</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="poodle" name="category">
-                        <label for="poodle">Poodle</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="none" name="category">
-                        <label for="none">Chưa rõ</label>
+    
+                    <div class="gen-opt-container">
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="all" name="category">
+                            <label for="all">Tất cả</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="male" name="category">
+                            <label for="male">Đực</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="fmale" name="category">
+                            <label for="fmale">Cái</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="none" name="category">
+                            <label for="none">Chưa rõ</label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- FILTER 3 -->
-        <div class="gender-fil">
-            <h2 class="fil-title">Loài</h2>
-            
-            <div class="select-box">
-                <div class="selected">
-                    Tất cả
-                    <i class="list-icon ti-angle-down"></i>
-                </div>
-
-                <div class="gen-opt-container">
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="all" name="category">
-                        <label for="all">Tất cả</label>
+    
+            <!-- FILTER 2 -->
+            <div class="gender-fil">
+                <h2 class="fil-title">Giống</h2>
+    
+                <div class="select-box">
+                    <div class="selected">
+                        Tất cả
+                        <i class="list-icon ti-angle-down"></i>
                     </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="dog" name="category">
-                        <label for="dog">Chó</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="cat" name="category">
-                        <label for="cat">Mèo</label>
-                    </div>
-
-                    <div class="gen-opt">
-                        <input type="radio" class="gen-radio" id="none" name="category">
-                        <label for="none">Chưa rõ</label>
+    
+                    <div class="gen-opt-container">
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="all" name="category">
+                            <label for="all">Tất cả</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="chihua" name="category">
+                            <label for="chihua">Chihuahua</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="vn" name="category">
+                            <label for="vn">Chó cỏ</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="poodle" name="category">
+                            <label for="poodle">Poodle</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="none" name="category">
+                            <label for="none">Chưa rõ</label>
+                        </div>
                     </div>
                 </div>
             </div>
+    
+            <!-- FILTER 3 -->
+            <div class="gender-fil">
+                <h2 class="fil-title">Loài</h2>
+                
+                <div class="select-box">
+                    <div class="selected">
+                        Tất cả
+                        <i class="list-icon ti-angle-down"></i>
+                    </div>
+    
+                    <div class="gen-opt-container">
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="all" name="category">
+                            <label for="all">Tất cả</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="dog" name="category">
+                            <label for="dog">Chó</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="cat" name="category">
+                            <label for="cat">Mèo</label>
+                        </div>
+    
+                        <div class="gen-opt">
+                            <input type="radio" class="gen-radio" id="none" name="category">
+                            <label for="none">Chưa rõ</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- SUBMIT BUTTON -->
+            <input type="submit" value="Tìm kiếm" class="submit-btn">
+        </div>
+    
+    
+        <!-- PET LIST - line 1 -->
+        <div id="menu-pet">
+    
+            <div class="pet-item">
+                <a href="pet-info.html">
+                    <img src="./asset/img/girl.png" alt="" class="pet-gender">
+                    <img src="./asset/img/map.jpg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Mập</h2>
+                            <p class="pet-descripton">Chihuahua</p>
+                            <p class="pet-descripton">2 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SGT</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/xu.jpeg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Xù</h2>
+                            <p class="pet-descripton">Chó cỏ</p>
+                            <p class="pet-descripton">1 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SGT</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/bin.jpeg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Bin</h2>
+                            <p class="pet-descripton">Chó cỏ</p>
+                            <p class="pet-descripton">8 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SAR</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/leo.jpg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Leo</h2>
+                            <p class="pet-descripton">Poodle</p>
+                            <p class="pet-descripton">2 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SAR</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="pet-info.html">
+                    <img src="./asset/img/girl.png" alt="" class="pet-gender">
+                    <img src="./asset/img/map.jpg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Mập</h2>
+                            <p class="pet-descripton">Chihuahua</p>
+                            <p class="pet-descripton">2 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SGT</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/xu.jpeg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Xù</h2>
+                            <p class="pet-descripton">Chó cỏ</p>
+                            <p class="pet-descripton">1 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SGT</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/bin.jpeg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Bin</h2>
+                            <p class="pet-descripton">Chó cỏ</p>
+                            <p class="pet-descripton">8 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SAR</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="pet-item">
+                <a href="#">
+                    <img src="./asset/img/boy.png" alt="" class="pet-gender">
+                    <img src="./asset/img/leo.jpg" alt="" class="pet-photo">
+                    
+                    <div class="pet-content">
+                        <div class="normal-text">
+                            <h2 class="pet-name">Leo</h2>
+                            <p class="pet-descripton">Poodle</p>
+                            <p class="pet-descripton">2 tuổi</p>
+                        </div>
+                        <div class="tag-content">Trạm SAR</div>
+                    </div>
+                </a>
+            </div>     
         </div>
 
-        <!-- SUBMIT BUTTON -->
-        <input type="submit" value="Tìm kiếm" class="submit-btn">
+        <!-- Begin: Footer -->
+        <div id="footer">
+            <div class="org-name">@2023 saigon4paws</div>
+            <ul class="icon-apps">
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-email"></i></a></li>
+            <ul>
+        </div>
+
     </div>
 
-
-    <!-- PET LIST - line 1 -->
-    <div id="menu-pet">
-
-        <div class="pet-item">
-            <a href="pet-info.html">
-                <img src="./asset/img/girl.png" alt="" class="pet-gender">
-                <img src="./asset/img/map.jpg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Mập</h2>
-                        <p class="pet-descripton">Chihuahua</p>
-                        <p class="pet-descripton">2 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SGT</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/xu.jpeg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Xù</h2>
-                        <p class="pet-descripton">Chó cỏ</p>
-                        <p class="pet-descripton">1 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SGT</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/bin.jpeg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Bin</h2>
-                        <p class="pet-descripton">Chó cỏ</p>
-                        <p class="pet-descripton">8 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SAR</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/leo.jpg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Leo</h2>
-                        <p class="pet-descripton">Poodle</p>
-                        <p class="pet-descripton">2 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SAR</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="pet-info.html">
-                <img src="./asset/img/girl.png" alt="" class="pet-gender">
-                <img src="./asset/img/map.jpg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Mập</h2>
-                        <p class="pet-descripton">Chihuahua</p>
-                        <p class="pet-descripton">2 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SGT</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/xu.jpeg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Xù</h2>
-                        <p class="pet-descripton">Chó cỏ</p>
-                        <p class="pet-descripton">1 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SGT</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/bin.jpeg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Bin</h2>
-                        <p class="pet-descripton">Chó cỏ</p>
-                        <p class="pet-descripton">8 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SAR</div>
-                </div>
-            </a>
-        </div>
-
-        <div class="pet-item">
-            <a href="#">
-                <img src="./asset/img/boy.png" alt="" class="pet-gender">
-                <img src="./asset/img/leo.jpg" alt="" class="pet-photo">
-                
-                <div class="pet-content">
-                    <div class="normal-text">
-                        <h2 class="pet-name">Leo</h2>
-                        <p class="pet-descripton">Poodle</p>
-                        <p class="pet-descripton">2 tuổi</p>
-                    </div>
-                    <div class="tag-content">Trạm SAR</div>
-                </div>
-            </a>
-        </div>
-        
-    </div>
 
 
 

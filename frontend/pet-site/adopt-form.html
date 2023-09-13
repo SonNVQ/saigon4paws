@@ -9,37 +9,95 @@
     <link rel="stylesheet" href="./asset/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
-    <div id="adt-form">
-        <div id="adt-heading">
-            <img src="./asset/img/loco-icon.png" alt="" class="adt-logo">
-            <h1 class="adt-headline">Điền thông tin nhận nuôi</h1>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Header phụ -->
+            <div class="sub-header">
+                <!-- Địa chỉ -->
+                <div class="location">
+                    <i class="icon ti-location-pin"></i>
+                    <div class="text-location">TP.HCM - Việt Nam</div>
+                </div>
+                <!-- Các nút điều hướng nhanh -->
+                <ul class="nav">
+                    <li><a href="#">Quản lý</a></li>
+                    <li class="icon-nav">
+                        <i class="icon ti-comment"></i>
+                        <a href="#">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li><a href="#">Eng</a></li>
+                </ul>  
+            </div>
+            <!-- Begin: Header chính -->
+            <div class="main-header nav-open">
+                <!-- Logo Saigon4paws -->
+                <img src="./asset/img/logo.png" alt="Logo Saigon4paws" class="logo-img">
+
+                <input type="checkbox" id="check">
+                <label for="check" class="check-btn">
+                    <i class="icon-mobile-nav ti-menu" name="menu-outline"></i>
+                </label>
+
+                <!-- Các nút chức năng -->
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li><a class="main-nav-link" href="#">trang chủ</a></li>
+                        <li><a class="main-nav-link" href="#">tài trợ</a></li>
+                        <li><a class="main-nav-link" href="#">vật nuôi</a></li>
+                        <li><a class="main-nav-link" href="#">tình nguyện</a></li>
+                        <li><a class="main-nav-link" href="#">sản phẩm</a></li>
+                        <li><a class="main-nav-link" href="#">bài viết</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <form action="adt-success.html" id="main-form">
-            <div id="basis-info">
-                <div class="input-info-1">
-                    <input type="text" placeholder="Họ tên" required class="input-box">
-                    <input type="number" placeholder="Số người đang sinh sống cùng" required class="input-box">
-                    <input type="number" placeholder="Mức thu nhập hàng tháng" required class="input-box">
-                </div>
-
-                <div class="input-info-2">
-                    <input type="date" placeholder="Năm sinh" required class="input-box">
-                    <input type="text" placeholder="Nghề nghiệp" required class="input-box">
-                    <input type="text" placeholder="Số điện thoại" required class="input-box"> 
-                </div>
+        <!-- BEGIN: REGISTER FORM -->
+        <div id="adt-form">
+            <div id="adt-heading">
+                <img src="./asset/img/loco-icon.png" alt="" class="adt-logo">
+                <h1 class="adt-headline">Điền thông tin nhận nuôi</h1>
             </div>
-
-            <input type="text" placeholder="Hình thức nơi lưu trú" required class="input input-box">
-            <input type="text" placeholder="Địa chỉ lưu trú hiện tại" required class="input input-box">    
-
-            <div id="adt-btn">
-                <a href="index.html" class="go-back-btn">Quay lại</a>
-                <input type="submit" value="Xác nhận đăng ký" class="submit-form-btn">
-            </div>
-
-        </form>
+    
+            <form action="adt-success.html" id="main-form">
+                <div id="basis-info">
+                    <div class="input-info-1">
+                        <input type="text" placeholder="Họ tên" required class="input-box">
+                        <input type="number" placeholder="Số người đang sinh sống cùng" required class="input-box">
+                        <input type="number" placeholder="Mức thu nhập hàng tháng" required class="input-box">
+                    </div>
+    
+                    <div class="input-info-2">
+                        <input type="date" placeholder="Năm sinh" required class="input-box">
+                        <input type="text" placeholder="Nghề nghiệp" required class="input-box">
+                        <input type="text" placeholder="Số điện thoại" required class="input-box"> 
+                    </div>
+                </div>
+    
+                <input type="text" placeholder="Hình thức nơi lưu trú" required class="input input-box">
+                <input type="text" placeholder="Địa chỉ lưu trú hiện tại" required class="input input-box">    
+    
+                <div id="adt-btn">
+                    <a href="index.html" class="go-back-btn">Quay lại</a>
+                    <input type="submit" value="Xác nhận đăng ký" class="submit-form-btn">
+                </div>
+    
+            </form>
+        </div>
+    
+        <!-- Begin: Footer -->
+        <div id="footer">
+            <div class="org-name">@2023 saigon4paws</div>
+            <ul class="icon-apps">
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-email"></i></a></li>
+            <ul>
+        </div>
     </div>
+
 </body>
 <script src="./js/main.js"></script>
 </html>
